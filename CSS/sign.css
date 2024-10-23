@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    text-align: center;
+    color: #ff833e;
+    margin-top: 10px;
+    
+}
+
+.sign-in-form {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.form-group {
+    margin-bottom: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+label {
+    flex: 0 0 100px; 
+    margin-right: 10px; 
+    color: #555;
+}
+
+
+
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    
+}
+
+input[type="email"]{
+    margin-left: 30px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.button {
+   display: inline-block;
+ text-align: center;
+ justify-content: space-between;
+    
+}
+
+button {
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: fit-content;
+    margin-left: 15px;
+    
+    
+}
+
+ .register{
+    
+    background-color: #ff833e;
+    display: inline-block;
+    margin-right: 15px;
+    
+}
+
+
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.or{
+    text-align: center;
+    color: #ff833e;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 15px;
+    font-size: small;
+    
+}
+
+.footer p {
+    margin: 5px 0;
+    display: inline-block;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.social-signin {
+    margin-top: 20px;
+    text-align: center;
+   
+}
+
+.social-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    width: calc(50% - 10px);
+    transition: background-color 0.3s;
+}
+
+.social-button i {
+    margin-right: 8px; 
+    display: inline;
+}
+
+.google {
+    background-color: #db4437; 
+}
+
+.facebook {
+    background-color: #3b5998; 
+    width: auto;
+}
+
+.google:hover {
+    background-color: #c13529;
+}
+
+.facebook:hover {
+    background-color: #2d4373;
+}
